@@ -7,8 +7,8 @@ from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
 from django.core import serializers
 from django.shortcuts import render, redirect
-from main.forms import MoodEntryForm
 from main.models import MoodEntry
+from main.forms import MoodEntryForm
 
 # Create your views here.
 @login_required(login_url='/login')
